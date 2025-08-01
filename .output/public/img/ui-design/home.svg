@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-108.583 -17.063 719.752 531.024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" rx="2" ry="2" style="stroke: rgb(0, 0, 0); fill: rgb(216, 222, 233);"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="-12238.791" y1="38.779" x2="12739.308" y2="64.633" transform="matrix(-1, 0, 0, -1, 500.515625, 103.412003)"/>
+  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(175, 182, 195);" cx="467.167" cy="24.56" rx="14.219" ry="14.219"/>
+  <rect x="18.098" y="10.341" width="31.024" height="28.438" rx="2" ry="2" style="fill: rgb(193, 186, 197); stroke: rgb(0, 0, 0);"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="-222568.967" y1="224.922" x2="223026.064" y2="686.143" transform="matrix(-1, 0, 0, -1, 457.09375, 911.065002)"/>
+  <rect x="18.098" y="66.733" width="463.288" height="376.357" rx="2" ry="2" style="stroke: rgb(0, 0, 0); fill: rgb(195, 207, 200);"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="-101.344" y1="98.759" x2="600" y2="100"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="-100" y1="398.759" x2="601.344" y2="400"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14.5px;" x="203.214" y="484.852">🤍🩵 * 💚🖤</text>
+  <rect x="26.887" y="107.032" width="445.708" height="117.89" rx="2" ry="2" style="stroke: rgb(0, 0, 0); fill: rgb(193, 186, 197);"/>
+  <rect x="26.887" y="230.61" width="445.708" height="160.29" rx="2" ry="2" style="stroke: rgb(0, 0, 0); fill: rgb(193, 186, 197);"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14.5px;" x="232.081" y="167.529">ASec : G</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14.5px;" x="232.081" y="305.407">ASec : P </text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14.5px;" x="223.436" y="29.472">UAHead</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14.5px;" x="31.098" y="484.335">UAFoot</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14.5px;" x="-164.348" y="227.508" transform="matrix(0, -1, 1, 0, -284.465363, 151.726425)">AContainer: Reactive</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14.5px;" x="409.963" y="428.474">footnotes</text>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="-41.365" y1="67.735" x2="-40.848" y2="443.09"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); paint-order: fill; stroke-dasharray: 1px, 4px;" x1="16.58" y1="-5.034" x2="17.098" y2="504.79"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-dasharray: 1px, 4px;" x1="482.804" y1="-5.527" x2="483.322" y2="504.297"/>
+</svg>
