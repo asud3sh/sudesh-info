@@ -5,32 +5,33 @@
                 <UIcon name="i-heroicons-square-3-stack-3d" />
             </h3>
         </ASection>
-        <ASection class="text-xl gallery-section">
+        <ASection class="my-4">
+            <h3 class="text-3xl"> <b>Gallery</b> </h3>
+        </ASection>
+        <hr />
+        <ASection class="text-xl gallery-section my-2">
             ~
         </ASection>
         <ASection class="text-xl gallery-section">
-            [ \O/ ]
+            <b>\O/</b>
         </ASection>
         <hr />
-        <Section class="gallery-section">
+        <Section class="gallery-section my-2">
             <span class="text-3xl">
+                <NuxtLink to="https://soundcloud.com/xpectron" target="_blank" class="out-link">
+                    <UIcon name="i-simple-icons-soundcloud" />
+                </NuxtLink>
                 <NuxtLink to="https://unsplash.com/@sud3sh_" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-unsplash" />
                 </NuxtLink>
                 <NuxtLink to="https://www.instagram.com/xpectron_/" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-instagram" />
                 </NuxtLink>
-                <NuxtLink to="https://soundcloud.com/xpectron" target="_blank" class="out-link">
-                    <UIcon name="i-simple-icons-soundcloud" />
-                </NuxtLink>
-                <!-- <NuxtLink to="https://www.youtube.com/@sud3sh_" target="_blank" class="out-link">
-                    <UIcon name="i-simple-icons-youtube" />
-                </NuxtLink> -->
             </span>
         </Section>
         <hr />
-        <ASection class="gallery-section">
-            <span class="text-s"><i>.</i></span>
+        <ASection class="text-xl gallery-section my-2">
+            <b>/ \</b>
         </ASection>
     </AContainer>
 </template>

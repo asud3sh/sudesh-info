@@ -1,33 +1,31 @@
 <script setup>
 const links = [{
-    label: 'profile',
-    avatar: {
-        src: 'https://avatars.githubusercontent.com/u/12827390'
-    },
-    to: '/portfolio',
+  label: 'About Me ++',
+  icon: 'i-heroicons-briefcase',
+  to: '/portfolio',
 },
 {
-    label: 'gallery',
-    icon: 'i-heroicons-square-3-stack-3d',
-    to: '/gallery'
+  label: 'Gallery 📷🎶',
+  icon: 'i-heroicons-square-3-stack-3d',
+  to: '/gallery',
 }]
 </script>
 <template>
     <AContainer class="about-page-container">
-        <ASection class="about-block-section">
-            <h2 class="text-5xl"><u>About</u></h2>
+        <ASection class="about-block-section my-2">
+            <h2 class="text-5xl">About</h2>
         </ASection>
-        <ASection class="about-block-section">
+        <ASection class="about-block-section my-4">
             <span class="text-2xl text-center">
                 Learning and working with Information Science, distilling simplicity out of evergrowing information, turtle embarks towards wonders of tomorrow O:).
             </span>
         </ASection>
         <hr />
-        <ASection class="about-block-section">
+        <ASection class="about-block-section vnav-link my-2">
             <UVerticalNavigation :links="links" />
         </ASection>
         <hr />
-        <ASection class="about-block-section">
+        <ASection class="about-block-section my-2">
             <span class="text-2xl">🌻</span>
         </ASection>
     </AContainer>
@@ -39,5 +37,8 @@ const links = [{
 
 .about-block-section {
     @apply flex justify-center;
+}
+.vnav-link {
+    @apply flex text-5xl;
 }
 </style>

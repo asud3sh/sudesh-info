@@ -5,15 +5,19 @@
                 <UIcon name="i-heroicons-briefcase" />
             </h3>
         </ASection>
-        <ASection class="text-2xl portfolio-section">
+        <ASection class="my-4">
+            <h3 class="text-3xl portfolio-section"> <b>About Me++</b> </h3>
+        </ASection>
+        <hr />
+        <ASection class="text-2xl portfolio-section my-4">
             <span>Embedded C Developer <b>@imark</b></span>
         </ASection>
         <hr />
-        <ASection class="text-xl portfolio-section">
+        <ASection class="text-xl portfolio-section my-4">
             <span>{Software Development, Data Science, and Deep Learning.};</span>
         </ASection>
         <hr />
-        <Section class="portfolio-section">
+        <Section class="portfolio-section my-4">
             <span class="text-3xl">
                 <NuxtLink to="https://github.com/asud3sh" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-github" />
@@ -22,14 +26,12 @@
                     <UIcon name="i-simple-icons-linkedin" />
                 </NuxtLink>
                 <NuxtLink to="mailto:sudesh.contact@gmail.com" class="out-link">
-                    <UIcon name="i-simple-icons-gmail" />  <!-- Gmail icon -->
-                    <!-- OR use a generic email icon -->
-                    <!-- <UIcon name="i-heroicons-envelope" /> -->
+                    <UIcon name="i-simple-icons-gmail" />
                 </NuxtLink>
             </span>
         </Section>
         <hr />
-        <ASection class="portfolio-section">
+        <ASection class="portfolio-section my-4">
             <p class="text-xs"><i>
                     <b>Causes:</b> Arts and Culture • Environment • Libéré src & Decentralized
                     systems.</i>
