@@ -21,6 +21,11 @@
                 <NuxtLink to="https://www.linkedin.com/in/acharya-sudesh/" target="_blank" class="out-link">
                     <UIcon name="i-simple-icons-linkedin" />
                 </NuxtLink>
+                <NuxtLink to="mailto:sudesh.contact@gmail.com" class="out-link">
+                    <UIcon name="i-simple-icons-gmail" />  <!-- Gmail icon -->
+                    <!-- OR use a generic email icon -->
+                    <!-- <UIcon name="i-heroicons-envelope" /> -->
+                </NuxtLink>
             </span>
         </Section>
         <hr />
