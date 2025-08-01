@@ -19,13 +19,13 @@
         <hr />
         <Section class="portfolio-section my-4">
             <span class="text-3xl">
-                <NuxtLink to="https://github.com/asud3sh" target="_blank" class="out-link">
+                <NuxtLink to="https://github.com/asud3sh" target="_blank" class="out-link mx-2">
                     <UIcon name="i-simple-icons-github" />
                 </NuxtLink>
-                <NuxtLink to="https://www.linkedin.com/in/acharya-sudesh/" target="_blank" class="out-link">
+                <NuxtLink to="https://www.linkedin.com/in/acharya-sudesh/" target="_blank" class="out-link mx-2">
                     <UIcon name="i-simple-icons-linkedin" />
                 </NuxtLink>
-                <NuxtLink to="mailto:sudesh.contact@gmail.com" class="out-link">
+                <NuxtLink to="mailto:sudesh.contact@gmail.com" class="out-link mx-2">
                     <UIcon name="i-simple-icons-gmail" />
                 </NuxtLink>
             </span>

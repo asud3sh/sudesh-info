@@ -18,13 +18,13 @@
         <hr />
         <Section class="gallery-section my-2">
             <span class="text-3xl">
-                <NuxtLink to="https://soundcloud.com/xpectron" target="_blank" class="out-link">
+                <NuxtLink to="https://soundcloud.com/xpectron" target="_blank" class="out-link mx-2">
                     <UIcon name="i-simple-icons-soundcloud" />
                 </NuxtLink>
-                <NuxtLink to="https://unsplash.com/@sud3sh_" target="_blank" class="out-link">
+                <NuxtLink to="https://unsplash.com/@sud3sh_" target="_blank" class="out-link mx-2">
                     <UIcon name="i-simple-icons-unsplash" />
                 </NuxtLink>
-                <NuxtLink to="https://www.instagram.com/xpectron_/" target="_blank" class="out-link">
+                <NuxtLink to="https://www.instagram.com/xpectron_/" target="_blank" class="out-link mx-2">
                     <UIcon name="i-simple-icons-instagram" />
                 </NuxtLink>
             </span>
