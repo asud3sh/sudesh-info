@@ -1,7 +1,7 @@
 
 
 ```
-nuxt src: mnpr.github.io
+nuxt src: asud3sh.github.io
 ------------------------------
 - dev: yarn install && yarn dev -o
 ------------------------------
