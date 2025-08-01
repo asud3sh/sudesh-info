@@ -7,6 +7,14 @@ export default defineNuxtConfig({
         enabled: true,
       },
     },
+    ssr:false,
+    target: 'static',
+    nitro: {
+      preset: process.env.NITRO_PRESET || 'static' // Use 'netlify' if you need SSR
+    },
+    generate: {
+      fallback: '404.html' // For SPA fallback
+    },
     modules: [
         '@nuxt/ui',
         '@nuxt/content',
