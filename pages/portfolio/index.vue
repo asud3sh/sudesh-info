@@ -33,7 +33,7 @@
         <hr />
         <ASection class="portfolio-section my-4">
             <p class="text-xs"><i>
-                    <b>Causes:</b> Arts and Culture • Environment • Libéré src & Decentralized
+                    <b>Causes:</b> Environment • Arts and Culture • Libéré src & Decentralized
                     systems.</i>
             </p>
         </ASection>
