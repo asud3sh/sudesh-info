@@ -28,6 +28,13 @@ const links = [{
         <ASection class="about-block-section my-2">
             <span class="text-2xl">🌻</span>
         </ASection>
+        <ASection class="about-block-section my-4">
+            <p class="text-xs">
+                <i>
+                    <b>Interests:</b> Automation • Acoustics • Graphics
+                </i>
+            </p>
+        </ASection>
     </AContainer>
 </template>
 <style scoped>

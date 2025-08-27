@@ -34,13 +34,6 @@
             <b>/ \</b>
         </ASection>
         <hr />
-        <ASection class="portfolio-section my-4">
-            <p class="text-xs">
-                <i>
-                    <b>Interests:</b> Design & Production Audio-graphy • Still & Motion Visual-graphy • Automation
-                </i>
-            </p>
-        </ASection>
     </AContainer>
 </template>
 
