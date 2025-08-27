@@ -5,7 +5,7 @@
                 <UIcon name="i-heroicons-square-3-stack-3d" />
             </h3>
         </ASection>
-        <ASection class="my-4">
+        <ASection class="gallery-section my-4">
             <h3 class="text-3xl"> <b>Gallery</b> </h3>
         </ASection>
         <hr />
