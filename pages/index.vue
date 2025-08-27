@@ -12,10 +12,7 @@
       <span class="text-2xl">📍🇳🇵</span>
     </ASection>
     <hr />
-    <ASection class="home-block-section my-4">
-        <p class="text-xs"><i><b>Love : </b>  Shell 👨🏻‍💻,  Shutter 📷, & Share 💞</i></p>
-    </ASection>
-  </main>
+   </main>
 </template>
 
 <style scoped>
