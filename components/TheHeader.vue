@@ -6,13 +6,13 @@
                     <li class="nav-link">
                         <NuxtLink to="/" class="link-item">
                             <UIcon name="i-heroicons-rectangle-group" />
-                            <span class="link-text">Home</span>
+                            <span>Home</span>
                         </NuxtLink>
                     </li>
                     <li class="nav-link">
                         <NuxtLink to="/about" class="link-item">
                             <UIcon name="i-heroicons-user-circle" />
-                            <span class="link-text">About</span>
+                            <span>About</span>
                         </NuxtLink>
                     </li>
                 </ul>
@@ -32,9 +32,9 @@
 }
 
 .link-item {
-    @apply flex flex-col items-center gap-1 text-5xl;
+    @apply grid justify-items-center gap-1 text-5xl;
 }
 
-.link-text {
+.link-item span {
     @apply text-sm font-medium;
 }
