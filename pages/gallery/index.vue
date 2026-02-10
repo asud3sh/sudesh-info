@@ -24,7 +24,7 @@
                 <NuxtLink to="https://unsplash.com/@sud3sh_" target="_blank" class="out-link mx-2">
                     <UIcon name="i-simple-icons-unsplash" />
                 </NuxtLink>
-                <NuxtLink to="https://www.instagram.com/xpectron_/" target="_blank" class="out-link mx-2">
+                <NuxtLink to="https://www.instagram.com/sud3sh_/" target="_blank" class="out-link mx-2">
                     <UIcon name="i-simple-icons-instagram" />
                 </NuxtLink>
             </span>
