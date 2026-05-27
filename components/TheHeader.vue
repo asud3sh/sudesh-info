@@ -17,7 +17,7 @@
                     </li>
                 </ul>
             </nav>
-            <hr />
+            <hr>
         </header>
     </AContainer>
 </template>
@@ -38,3 +38,4 @@
 .link-item span {
     @apply text-sm font-medium;
 }
+</style>
