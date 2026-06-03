@@ -5,13 +5,11 @@
                 <ul class="nav-links">
                     <li class="nav-link">
                         <NuxtLink to="/" class="link-item">
-                            <UIcon name="i-heroicons-rectangle-group" />
                             <span>Home</span>
                         </NuxtLink>
                     </li>
                     <li class="nav-link">
                         <NuxtLink to="/about" class="link-item">
-                            <UIcon name="i-heroicons-user-circle" />
                             <span>About</span>
                         </NuxtLink>
                     </li>
@@ -36,6 +34,7 @@
 }
 
 .link-item span {
-    @apply text-sm font-medium;
+    @apply text-lg font-medium;
 }
+
 </style>
