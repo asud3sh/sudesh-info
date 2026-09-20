@@ -1,15 +1,7 @@
 <template>
     <AContainer>
-        <ASection class="portfolio-section text-5xl">
+        <ASection class="portfolio-section text-5xl mt-8">
             <UIcon name="i-heroicons-briefcase" class="inline-block" />
-        </ASection>
-
-        <ASection class="portfolio-section my-4">
-            <h3 class="text-3xl">About Me++</h3>
-        </ASection>
-
-        <ASection>
-            <hr class="w-full" />
         </ASection>
 
         <ASection class="portfolio-section text-2xl my-4">
@@ -21,7 +13,7 @@
         </ASection>
 
         <ASection>
-            <hr class="w-full" />
+            <hr />
         </ASection>
 
         <!-- Accordion Timelines Section -->
@@ -318,7 +310,7 @@
             </NuxtLink>
         </ASection>
         <ASection>
-            <hr class="w-full" />
+            <hr />
         </ASection>
 
         <ASection class="portfolio-section my-4">
@@ -352,13 +344,13 @@
         </ASection>
 
         <ASection>
-            <hr class="w-full" />
+            <hr />
         </ASection>
 
         <ASection class="portfolio-section my-4">
             <p class="text-xs text-center">
                 <i>
-                    <b>Causes:</b> Environment • Arts and Culture • Libéré src &amp; Decentralized systems.
+                    <b>Causes:</b> Environment • Fintech • Arts and Culture • Libéré src &amp; Decentralized systems.
                 </i>
             </p>
         </ASection>
@@ -399,5 +391,8 @@ code {
 }
 .resume-btn {
     @apply inline-flex items-center gap-2 px-4 py-2 border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors;
+}
+hr {
+    @apply w-full max-w-md mx-auto my-2 border-t border-gray-200 dark:border-gray-700;
 }
 </style>

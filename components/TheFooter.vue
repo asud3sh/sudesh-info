@@ -1,5 +1,7 @@
 <script setup>
 const colorMode = useColorMode()
+const router = useRouter()
+
 const isDark = computed({
     get() {
         return colorMode.value === 'dark'
@@ -11,32 +13,48 @@ const isDark = computed({
 </script>
 
 <template>
-    <AContainer class="flex justify-center">
-        <footer>
-            <hr />
-            <span>
+    <AContainer class="w-full">
+        <footer class="pb-4">
+            <hr class="mb-3" />
+            <div class="footer-controls">
                 <UButton
-                    icon="i-heroicons-chevron-double-left-16-solid"  
+                    icon="i-heroicons-chevron-double-left-16-solid"
                     size="sm"
                     color="primary"
-                    @click="$router.go(-1)"
                     variant="ghost"
+                    aria-label="Back"
+                    @click="router.back()"
                 />
                 <ClientOnly>
-                    <UButton :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'" variant="ghost"
-                        aria-label="Theme" @click="isDark = !isDark" />
+                    <UButton
+                        :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
+                        variant="ghost"
+                        aria-label="Toggle theme"
+                        @click="isDark = !isDark"
+                    />
                     <template #fallback>
-                        <span class="w-8 h-8" />
+                        <span class="inline-block w-8 h-8" />
                     </template>
                 </ClientOnly>
                 <UButton
-                    icon="i-heroicons-chevron-double-right-16-solid"  
+                    icon="i-heroicons-chevron-double-right-16-solid"
                     size="sm"
                     color="primary"
-                    @click="$router.go(+1)"
                     variant="ghost"
+                    aria-label="Forward"
+                    @click="router.forward()"
                 />
-            </span>
+            </div>
         </footer>
     </AContainer>
 </template>
+
+<style scoped>
+.footer-controls {
+    @apply flex justify-center items-center gap-4;
+}
+
+hr {
+    @apply w-full h-px border-0 bg-gradient-to-r from-transparent via-gray-300 to-transparent dark:via-gray-600;
+}
+</style>
