@@ -310,7 +310,7 @@
         <ASection class="portfolio-section my-4">
             <NuxtLink to="/Resume.pdf" external download="Resume.pdf" class="resume-btn">
                 <UIcon name="i-heroicons-arrow-down-tray" class="text-xl" />
-                <span> Resumé </span>
+                <span>Resumé</span>
             </NuxtLink>
         </ASection>
         <ASection>
