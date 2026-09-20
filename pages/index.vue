@@ -2,9 +2,9 @@
 const tags = [
     { label: 'Software', icon: 'i-heroicons-code-bracket' },
     { label: 'Data & AI', icon: 'i-heroicons-sparkles' },
-    { label: 'Sound', icon: 'i-heroicons-musical-note' },
+    { label: 'Sonics', icon: 'i-heroicons-musical-note' },
     { label: 'Impressions', icon: 'i-heroicons-camera' },
-    { label: 'Nature', icon: 'i-heroicons-globe-alt' },
+    { label: 'Umwelt', icon: 'i-heroicons-globe-alt' },
     { label: 'Spirituality', icon: 'i-heroicons-sun' },
 ]
 </script>
