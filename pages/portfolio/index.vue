@@ -24,7 +24,7 @@
         <ASection class="my-8 w-full max-w-3xl mx-auto flex flex-col gap-4 px-4 text-left">
             <!-- Work Timeline Accordion -->
             <details class="group border border-gray-200 dark:border-gray-800 rounded-lg bg-gray-50 dark:bg-gray-900/50">
-                <summary class="flex justify-between items-center cursor-pointer list-none p-5 text-lg font-bold transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">
+                <summary class="flex justify-center items-center gap-3 cursor-pointer list-none p-5 text-lg font-bold transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">
                     <span class="flex items-center gap-2">
                         <UIcon name="i-heroicons-briefcase" class="text-xl" />
                         Work Timeline
@@ -96,7 +96,7 @@
 
             <!-- Academic Timeline Accordion -->
             <details class="group border border-gray-200 dark:border-gray-800 rounded-lg bg-gray-50 dark:bg-gray-900/50">
-                <summary class="flex justify-between items-center cursor-pointer list-none p-5 text-lg font-bold transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">
+                <summary class="flex justify-center items-center gap-3 cursor-pointer list-none p-5 text-lg font-bold transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg">
                     <span class="flex items-center gap-2">
                         <UIcon name="i-heroicons-academic-cap" class="text-xl" />
                         Academic Timeline
