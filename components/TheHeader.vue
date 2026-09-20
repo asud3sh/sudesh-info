@@ -7,18 +7,18 @@ const links = [
 
 <template>
     <AContainer class="w-full">
-        <header class="pt-4">
+        <header class="pt-6">
             <nav aria-label="Main">
                 <ul class="nav-links">
                     <li v-for="link in links" :key="link.to">
                         <NuxtLink :to="link.to" class="link-item">
-                            <UIcon :name="link.icon" class="text-4xl" />
+                            <UIcon :name="link.icon" class="text-5xl" />
                             <span>{{ link.label }}</span>
                         </NuxtLink>
                     </li>
                 </ul>
             </nav>
-            <hr class="mt-3" />
+            <hr class="mt-4" />
         </header>
     </AContainer>
 </template>
@@ -29,11 +29,11 @@ const links = [
 }
 
 .link-item {
-    @apply grid justify-items-center gap-1 px-3 py-1 rounded-lg opacity-70 transition-all duration-200 hover:opacity-100 hover:bg-gray-100 dark:hover:bg-gray-800;
+    @apply grid justify-items-center gap-1.5 px-4 py-2 rounded-lg opacity-70 transition-all duration-200 hover:opacity-100 hover:bg-gray-100 dark:hover:bg-gray-800;
 }
 
 .link-item span {
-    @apply text-sm font-medium tracking-wide;
+    @apply text-base font-medium tracking-wide;
 }
 
 /* active route */
