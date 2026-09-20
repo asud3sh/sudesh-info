@@ -16,7 +16,7 @@ const appConfig = useAppConfig()
 
 <style scoped>
 .full-screen-card {
-    @apply h-screen w-screen m-0 rounded-none;
+    @apply min-h-screen w-screen m-0 rounded-none;
 }
 .main-page-container {
     @apply flex justify-center;

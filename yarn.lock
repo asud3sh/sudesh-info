@@ -602,6 +602,13 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/heroicons@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@iconify-json/heroicons/-/heroicons-1.2.3.tgz#041fe0d689535dddc51e97c8b692cdff792ac4b2"
+  integrity sha512-n+vmCEgTesRsOpp5AB5ILB6srsgsYK+bieoQBNlafvoEhjVXLq8nIGN4B0v/s4DUfa0dOrjwE/cKJgIKdJXOEg==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/simple-icons@1.1.106":
   version "1.1.106"
   resolved "https://registry.yarnpkg.com/@iconify-json/simple-icons/-/simple-icons-1.1.106.tgz#00e8cc0a88f73e6f65a4867b56a251374963a67e"
