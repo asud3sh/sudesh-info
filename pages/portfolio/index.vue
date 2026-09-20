@@ -5,7 +5,11 @@
         </ASection>
 
         <ASection class="portfolio-section text-2xl my-4">
-            <span>Embedded C Developer <b>@imark</b></span>
+            <span>Payment Application Developer (Embedded C and Rust) <b>@imark</b></span>
+        </ASection>
+
+        <ASection>
+            <hr />
         </ASection>
 
         <ASection class="portfolio-section text-xl my-4">

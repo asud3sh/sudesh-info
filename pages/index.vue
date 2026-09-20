@@ -3,7 +3,7 @@ const tags = [
     { label: 'Software', icon: 'i-heroicons-code-bracket' },
     { label: 'Data & AI', icon: 'i-heroicons-sparkles' },
     { label: 'Sound', icon: 'i-heroicons-musical-note' },
-    { label: 'Photography', icon: 'i-heroicons-camera' },
+    { label: 'Impressions', icon: 'i-heroicons-camera' },
     { label: 'Nature', icon: 'i-heroicons-globe-alt' },
     { label: 'Spirituality', icon: 'i-heroicons-sun' },
 ]
@@ -25,11 +25,11 @@ const tags = [
 
         <ASection class="home-block-section my-2 px-4">
             <p class="text-base opacity-70 max-w-md">
-                Wandering through code, sound, light, and silence.
+                Wandering through Automation, Sound, Light, and Silence.
             </p>
         </ASection>
 
-        <ASection class="home-block-section flex-wrap gap-2 my-2 px-4">
+        <ASection class="home-block-section flex-wrap gap-2 my-2 mt-4 px-4">
             <span v-for="tag in tags" :key="tag.label" class="home-tag">
                 <UIcon :name="tag.icon" class="text-base" />
                 {{ tag.label }}

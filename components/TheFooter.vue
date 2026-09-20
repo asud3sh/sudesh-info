@@ -18,9 +18,9 @@ const isDark = computed({
             <hr class="mb-3" />
             <div class="footer-controls">
                 <UButton
-                    icon="i-heroicons-chevron-double-left-16-solid"
+                    icon="i-heroicons-arrow-left"
                     size="sm"
-                    color="primary"
+                    color="gray"
                     variant="ghost"
                     aria-label="Back"
                     @click="router.back()"
@@ -28,6 +28,8 @@ const isDark = computed({
                 <ClientOnly>
                     <UButton
                         :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
+                        size="sm"
+                        color="gray"
                         variant="ghost"
                         aria-label="Toggle theme"
                         @click="isDark = !isDark"
@@ -37,9 +39,9 @@ const isDark = computed({
                     </template>
                 </ClientOnly>
                 <UButton
-                    icon="i-heroicons-chevron-double-right-16-solid"
+                    icon="i-heroicons-arrow-right"
                     size="sm"
-                    color="primary"
+                    color="gray"
                     variant="ghost"
                     aria-label="Forward"
                     @click="router.forward()"
