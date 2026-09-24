@@ -6,7 +6,7 @@
         </ASection>
 
         <ASection class="portfolio-section text-2xl my-4">
-            <span>Payment Application Developer ( Embedded C and Rust ) <b>@imark</b></span>
+            <span>Payment Application Developer ( Embedded C & Rust ) <b>@imark</b></span>
         </ASection>
 
         <ASection>
@@ -14,7 +14,7 @@
         </ASection>
 
         <ASection class="portfolio-section text-xl my-4">
-            <span>{ Software Engineering, Fintech, Data Science, and Deep Learning. };</span>
+            <span>{ Software Engineering, Fintech, Data Science, & Deep Learning };</span>
         </ASection>
 
         <ASection>
@@ -86,7 +86,7 @@
         <!-- ============ TIMELINES ============ -->
         <ASection class="w-full max-w-3xl mx-auto flex flex-col gap-6 px-4 my-6 text-left">
             <!-- Work Timeline -->
-            <details class="acc" open>
+            <details class="acc">
                 <summary class="acc-summary">
                     <span class="acc-summary-left">
                         <span class="acc-icon">
